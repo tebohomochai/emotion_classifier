@@ -1,0 +1,17 @@
+#Generated data & model artifacts (large / reproducible from code)
+data/*.csv
+data/*.npy
+models/*.joblib
+results/*.json
+
+#Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+#Notebooks
+.ipynb_checkpoints/
+
+#OS
+.DS_Store
