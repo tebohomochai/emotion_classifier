@@ -16,7 +16,7 @@ Given a news headline, predict which of the following six emotion classes it con
 class). The dataset was augmented using the Conditional-BERT model.
 * **Features**:
 
-  * *DistilBERT*: `\[CLS]` token embedding from `distilbert-base-uncased`'s
+  * *DistilBERT*: token embedding from `distilbert-base-uncased`'s
 last hidden state of 768 dimensions.
   * *NRC*: proportion-based affect frequencies across 8 emotion categories and 2 sentiment
  polarities from `NRCLex`.
