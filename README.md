@@ -68,6 +68,17 @@ result = clf.predict("Stocks plunge after surprise rate hike")
 print(result\["label"], result\["probabilities"])
 ```
 
+## Running the API
+From the project root:
+
+
+```bash
+   python -m uvicorn api:app --reload --app-dir src
+```
+   
+Then open http://127.0.0.1:8000/docs to try the '/predict' endpoint. 
+Replace 'string' with a headline and then execute.
+
 ## Results summary
 
 Across classifiers and feature sets evaluated in the thesis:
